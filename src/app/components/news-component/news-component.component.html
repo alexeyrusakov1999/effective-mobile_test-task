@@ -1,0 +1,6 @@
+<div class="card">
+    <div class="card-header">
+        <h2>{{post.id + ". " + post.title }}</h2>
+        <button [routerLink]="['/news', post.id]" class="btn btn-dark">Открыть</button>
+    </div>
+</div>

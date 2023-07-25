@@ -1,0 +1,11 @@
+<nav class="navbar bg-primary">
+  <h1>Effective Mobile Test Task</h1>
+  <ul *ngIf="this.authService.isAuthentificated">
+    <li><a routerLink="/">Главная</a></li>
+    <li><a href="#" (click)="logout($event)">Выйти</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,7 @@
+<div *ngIf="news.length; else loading" class="posts">
+    <app-news-component *ngFor="let post of news" [post]="post"></app-news-component>
+</div>
+
+<ng-template #loading>
+    <p class="text-center">Подождите, данные загружаются...</p>
+</ng-template>
