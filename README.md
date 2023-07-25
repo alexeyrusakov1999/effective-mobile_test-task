@@ -1,3 +1,5 @@
+Данные для входа в приложение
+
 email: user@mail.ru
 password: user1234
 
