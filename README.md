@@ -1,6 +1,7 @@
-Данные для входа в приложение
+# Данные для входа в приложение
 
 email: user@mail.ru
+
 password: user1234
 
 # MobileTestTask
